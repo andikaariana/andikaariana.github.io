@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Style*/
+ 
+ body{
+ 	font-size: 20px;
+ 	font-family:Arial,Helvetica,sans-serif;
+ 	line-height: 30px;
+ 	background-color: #F5F5DC;
+ 	color:#333333;
+
+ }
+
+.container {
+	width: 1000px;
+	margin:auto;
+	background-color:#F5F5DC;
+}
+
+.header {
+	padding: 30px;
+}
+
+.header .judul a {
+	 font-size: 35px;
+	 font-weight: bold;
+	 font-family: inherit;
+	 font: normal normal bold 43px/1.2em 'Noticia Text',serif;
+	 color: rgba(77,77,77,1);
+	 margin-left: 100px;
+	 padding-top: 30px;
+	 letter-spacing: 1px;
+}
+
+.header h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	font:  normal normal lighter 18px/1.2em 'Noticia Text',serif;
+	margin-left: 110px;
+	color: rgba(77,77,77,1);
+}
+
+
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 50px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font: normal normal bold 14px/1.2em 'Noticia Text',serif;
+}
+
+.header ul {
+	text-align: center;
+	margin-left: 450px;
+
+}
+.header a {
+	text-decoration: none;
+	color: #8B8B8B;
+}
+
+.header a:hover {
+	color: #61CFD3;
+	transition: color 0.4s ease 0s;
+}
+
+.hero {
+	width: 600px;
+	
+	float: left;
+	box-sizing: border-box;
+}
+
+
+
+.hero img {
+	width: 450px;
+	height: 450px;
+	margin-top: 15px;
+	padding-left:20px;
+	object-fit: cover;
+	
+}
+.hero {
+	height: 550px;
+
+}
+
+.kanan h1 {
+	font-weight: bold;
+	color: #4d4d4d;
+	font-size: 80px;
+	font-family: notifia text;
+	padding-top: 50px;
+	position: relative;
+	left: -90px
+}
+
+.kanan h2 {
+	
+	
+	margin-top: 30px;
+	letter-spacing: 1px;
+	position: relative;
+	left: -90px;
+	font-size: 45px;
+	color: #4d4d4d;
+	font-family: noticia text;
+}
+
+.kanan h3 {
+	position: relative;
+	left: -90px;
+	font-size: 18px;
+	color: #4d4d4d;
+	font-family: arial;
+	margin-top: 30px;
+	text-align:justify;
+	text-indent: 40px;
+	word-spacing: normal;
+	height: 400px;
+
+}
+
+.kanan h3 a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.kanan h3 a:hover {
+color: white;
+}
+.footer {
+	background-color:tomato;
+	width: 100%;
+	height: 100px;
+}
+
+.footer .copy {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding: 30px;
+}
+
+.footer .copy a {
+	text-decoration: none;
+	color: white;
+}
+
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
